@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="917dp"
+  android:background="@drawable/drawable_shape">
+  
+  <TextView
+    android:id="@+id/tv_your_voucher"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_marginLeft="0.5dp"
+    android:layout_marginTop="25dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Your Voucher"
+    android:textColor="#FF000000"
+    android:textSize="24dp" />
+  
+  <ImageView
+    android:id="@+id/iv_list"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="19dp"
+    android:layout_marginTop="25dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/iv_list" />
+  
+  <ImageView
+    android:id="@+id/iv_rectangle1"
+    android:layout_width="340dp"
+    android:layout_height="190dp"
+    android:layout_marginLeft="1dp"
+    android:layout_marginBottom="259.5dp"
+    android:layout_gravity="center"
+    android:alpha="0.5"
+    android:background="@drawable/iv_rectangle1"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:id="@+id/iv_image1"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginLeft="264dp"
+    android:layout_marginTop="150dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/iv_image1" />
+  
+  <ImageView
+    android:id="@+id/iv_timer1"
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:layout_marginLeft="57dp"
+    android:layout_marginTop="116dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/iv_timer1" />
+  
+  <TextView
+    android:id="@+id/tv_expiry_date1"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_marginLeft="89dp"
+    android:layout_marginTop="118dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="December.31.2024"
+    android:textColor="#FF111111"
+    android:textSize="20dp" />
+  
+  <TextView
+    android:id="@+id/tv_discount1"
+    android:layout_width="wrap_content"
+    android:layout_height="49dp"
+    android:layout_marginLeft="60dp"
+    android:layout_marginTop="180.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="50% off"
+    android:textColor="#FF000000"
+    android:textSize="40dp" />
+  
+  <ImageView
+    android:id="@+id/iv_rectangle2"
+    android:layout_width="290dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="1dp"
+    android:layout_marginTop="250dp"
+    android:layout_gravity="top|center_horizontal"
+    android:background="@drawable/iv_rectangle2"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/tv_redeem1"
+    android:layout_width="359dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="0.5dp"
+    android:layout_marginTop="250dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Reedem"
+    android:textColor="#FFFFFFFF"
+    android:textSize="20dp" />
+  
+  <ImageView
+    android:id="@+id/iv_rectangle3"
+    android:layout_width="340dp"
+    android:layout_height="190dp"
+    android:layout_marginBottom="19.5dp"
+    android:layout_gravity="center"
+    android:alpha="0.5"
+    android:background="@drawable/iv_rectangle3"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:id="@+id/iv_image2"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginLeft="263dp"
+    android:layout_marginTop="390dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/iv_image2" />
+  
+  <ImageView
+    android:id="@+id/iv_timer2"
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:layout_marginLeft="56dp"
+    android:layout_marginTop="356dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/iv_timer2" />
+  
+  <TextView
+    android:id="@+id/tv_expiry_date2"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_marginLeft="88dp"
+    android:layout_marginTop="358dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="December.31.2024"
+    android:textColor="#FF111111"
+    android:textSize="20dp" />
+  
+  <TextView
+    android:id="@+id/tv_credit"
+    android:layout_width="wrap_content"
+    android:layout_height="49dp"
+    android:layout_marginLeft="59dp"
+    android:layout_marginTop="420.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="300 credit"
+    android:textColor="#FF000000"
+    android:textSize="40dp" />
+  
+  <ImageView
+    android:id="@+id/iv_rectangle4"
+    android:layout_width="290dp"
+    android:layout_height="30dp"
+    android:layout_marginTop="490dp"
+    android:layout_gravity="top|center_horizontal"
+    android:background="@drawable/iv_rectangle4"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/tv_redeem2"
+    android:layout_width="359dp"
+    android:layout_height="30dp"
+    android:layout_marginRight="0.5dp"
+    android:layout_marginTop="490dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Reedem"
+    android:textColor="#FFFFFFFF"
+    android:textSize="20dp" />
+</FrameLayout>

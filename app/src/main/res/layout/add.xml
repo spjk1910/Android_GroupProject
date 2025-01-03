@@ -1,0 +1,129 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Tên khách sạn -->
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên khách sạn"
+            android:inputType="text" />
+
+        <!-- Địa điểm -->
+        <EditText
+            android:id="@+id/editTextLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Địa điểm"
+            android:inputType="text" />
+
+        <!-- Đánh giá -->
+        <EditText
+            android:id="@+id/editTextRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Đánh giá (0-5)"
+            android:inputType="numberDecimal" />
+
+        <!-- Số lượng đánh giá -->
+        <EditText
+            android:id="@+id/editTextReviews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Số lượng đánh giá"
+            android:inputType="number" />
+
+        <!-- Giá mỗi ngày -->
+        <EditText
+            android:id="@+id/editTextPricePerDay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Giá mỗi ngày"
+            android:inputType="numberDecimal" />
+
+        <!-- Số ngày sử dụng -->
+        <EditText
+            android:id="@+id/editTextDaysUse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Số ngày sử dụng"
+            android:inputType="number" />
+
+        <!-- Liên hệ -->
+        <EditText
+            android:id="@+id/editTextContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Liên hệ"
+            android:inputType="text" />
+
+        <!-- Số điện thoại -->
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Số điện thoại"
+            android:inputType="phone" />
+
+        <!-- Mô tả -->
+        <EditText
+            android:id="@+id/editTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mô tả"
+            android:inputType="textMultiLine"
+            android:minLines="3" />
+
+        <!-- Danh sách hình ảnh -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Danh sách hình ảnh"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewImages"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scrollbars="vertical" />
+
+        <!-- Nhập URL hình ảnh -->
+        <EditText
+            android:id="@+id/editTextImageUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="URL hình ảnh"
+            android:inputType="textUri" />
+
+        <!-- Nút thêm hình ảnh -->
+        <Button
+            android:id="@+id/buttonAddImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm hình ảnh"
+            android:layout_marginTop="8dp" />
+
+        <!-- Nút thêm khách sạn -->
+        <Button
+            android:id="@+id/buttonAddAccommodation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thêm khách sạn"
+            android:layout_marginTop="16dp" />
+
+        <LinearLayout
+            android:id="@+id/imageContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map_container"
+    android:layout_width="match_parent"
+    android:layout_height="917dp"
+    android:background="@drawable/map_container">
+
+    <ImageView
+        android:id="@+id/ellipse_image"
+        android:layout_width="55dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="186dp"
+        android:layout_marginTop="824dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/ellipse_image"
+        android:scaleType="centerInside" />
+
+    <ImageView
+        android:id="@+id/ad_image"
+        android:layout_width="464dp"
+        android:layout_height="917dp"
+        android:layout_marginLeft="-26dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/ad_image" />
+
+    <ImageView
+        android:id="@+id/rectangleimage"
+        android:layout_width="412dp"
+        android:layout_height="322dp"
+        android:layout_marginTop="595dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/rectangleimage"
+        android:scaleType="centerInside" />
+
+    <ImageView
+        android:id="@+id/rectangleimage1"
+        android:layout_width="68dp"
+        android:layout_height="7dp"
+        android:layout_marginTop="601dp"
+        android:layout_gravity="top|center_horizontal"
+        android:background="@drawable/rectangleimage1"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/minute_text"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="636dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="30 Minute (13km)"
+        android:textColor="#FF000000"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/traffic_condition_text"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="683dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Traffic Condition"
+        android:textColor="#FF000000"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/traffic_jam_text"
+        android:layout_width="365dp"
+        android:layout_height="174dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="722dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|top"
+        android:includeFontPadding="false"
+        android:lineHeight="25.73dp"
+        android:text="There is a traffic jam on Vo Van Kiet St\nAn accident on West Hill St cause a traffic jam\nThere is a traffic jam on Vo Van Kiet St\nAn accident on West Hill St cause a traffic jam\nThere is a traffic jam on Vo Van Kiet St\nAn accident on West Hill St cause a traffic jam"
+        android:textColor="#FF000000"
+        android:textSize="16dp" />
+</FrameLayout>

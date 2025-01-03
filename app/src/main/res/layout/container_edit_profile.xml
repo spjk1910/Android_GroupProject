@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container_edit_profile"
+  android:layout_width="match_parent"
+  android:layout_height="917dp"
+  android:background="@drawable/container_edit_profile">
+  
+  <ImageView
+    android:id="@+id/image_profile"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_marginTop="118dp"
+    android:layout_gravity="top|center_horizontal"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_profile" />
+  
+  <TextView
+    android:id="@+id/text_back_arrow"
+    android:layout_width="wrap_content"
+    android:layout_height="58dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="19dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="&lt;"
+    android:textColor="#FF000000"
+    android:textSize="36dp" />
+  
+  <TextView
+    android:id="@+id/text_edit_profile_title"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_marginLeft="0.5dp"
+    android:layout_marginTop="23dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Edit Profile"
+    android:textColor="#FF000000"
+    android:textSize="24dp" />
+  
+  <ImageView
+    android:id="@+id/image_ellipse"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="234dp"
+    android:layout_marginTop="238dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/image_ellipse"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:id="@+id/image_pencil"
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:layout_marginLeft="239dp"
+    android:layout_marginTop="243dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_pencil" />
+  
+  <TextView
+    android:id="@+id/text_profile_name"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="338dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Profile Name"
+    android:textColor="#FF000000"
+    android:textSize="20dp" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle"
+    android:layout_width="370.5dp"
+    android:layout_height="42dp"
+    android:layout_marginRight="4.75dp"
+    android:layout_marginTop="370dp"
+    android:layout_gravity="top|center_horizontal"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_rectangle" />
+  
+  <TextView
+    android:id="@+id/text_profile_name_value"
+    android:layout_width="wrap_content"
+    android:layout_height="21dp"
+    android:layout_marginLeft="41dp"
+    android:layout_marginTop="381dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="JK"
+    android:textColor="#FF000000"
+    android:textSize="16dp" />
+  
+  <TextView
+    android:id="@+id/text_email_label"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="426dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Email"
+    android:textColor="#FF000000"
+    android:textSize="20dp" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle1"
+    android:layout_width="370.5dp"
+    android:layout_height="42dp"
+    android:layout_marginRight="4.75dp"
+    android:layout_marginTop="458dp"
+    android:layout_gravity="top|center_horizontal"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_rectangle1" />
+  
+  <TextView
+    android:id="@+id/text_address_label"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="600dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Address"
+    android:textColor="#FF000000"
+    android:textSize="20dp" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle2"
+    android:layout_width="370.5dp"
+    android:layout_height="42dp"
+    android:layout_marginRight="4.75dp"
+    android:layout_marginTop="632dp"
+    android:layout_gravity="top|center_horizontal"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_rectangle2" />
+  
+  <TextView
+    android:id="@+id/text_address_value"
+    android:layout_width="wrap_content"
+    android:layout_height="21dp"
+    android:layout_marginLeft="41dp"
+    android:layout_marginTop="643dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="702 Nguyen Van Linh, Tan Hung, District 7"
+    android:textColor="#FF000000"
+    android:textSize="16dp" />
+  
+  <TextView
+    android:id="@+id/text_phone_number_label"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="514dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Phone Number"
+    android:textColor="#FF000000"
+    android:textSize="20dp" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle3"
+    android:layout_width="370.5dp"
+    android:layout_height="42dp"
+    android:layout_marginRight="4.75dp"
+    android:layout_marginTop="546dp"
+    android:layout_gravity="top|center_horizontal"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_rectangle3" />
+  
+  <TextView
+    android:id="@+id/text_phone_number_value"
+    android:layout_width="wrap_content"
+    android:layout_height="21dp"
+    android:layout_marginLeft="94dp"
+    android:layout_marginTop="556dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="02837761306"
+    android:textColor="#FF000000"
+    android:textSize="16dp" />
+  
+  <ImageView
+    android:id="@+id/container_line"
+    android:layout_width="0dp"
+    android:layout_height="42dp"
+    android:layout_marginLeft="75dp"
+    android:layout_marginTop="546dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_line" />
+  
+  <TextView
+    android:id="@+id/text_country_code"
+    android:layout_width="wrap_content"
+    android:layout_height="21dp"
+    android:layout_marginLeft="34dp"
+    android:layout_marginTop="556dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="+84"
+    android:textColor="#FF000000"
+    android:textSize="16dp" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle4"
+    android:layout_width="80dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="298dp"
+    android:layout_marginTop="690dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/image_rectangle4"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_save_button"
+    android:layout_width="359dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="131.5dp"
+    android:layout_marginTop="690dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Save"
+    android:textColor="#FFFFFFFF"
+    android:textSize="20dp" />
+  
+  <TextView
+    android:id="@+id/text_email_value"
+    android:layout_width="wrap_content"
+    android:layout_height="21dp"
+    android:layout_marginLeft="37dp"
+    android:layout_marginTop="468dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="spjk1910@gmail.com"
+    android:textColor="#FF000000"
+    android:textSize="16dp" />
+</FrameLayout>

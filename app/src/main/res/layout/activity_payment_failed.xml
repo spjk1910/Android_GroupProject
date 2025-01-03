@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container_payment_failed"
+  android:layout_width="match_parent"
+  android:layout_height="917dp"
+  android:background="@drawable/container_payment_failed">
+  
+  <TextView
+    android:id="@+id/text_payment_fail"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="336.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Payment Fail"
+    android:textColor="#FF000000"
+    android:textSize="32dp" />
+  
+  <TextView
+    android:id="@+id/text_failed_paid"
+    android:layout_width="wrap_content"
+    android:layout_height="25dp"
+    android:layout_marginLeft="0.5dp"
+    android:layout_marginTop="375.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Failed paid $30"
+    android:textColor="#FF000000"
+    android:textSize="20dp" />
+  
+  <TextView
+    android:id="@+id/text_payment_method"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="443dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Payment Method"
+    android:textColor="#FF000000"
+    android:textSize="20dp" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle"
+    android:layout_width="350dp"
+    android:layout_height="234dp"
+    android:layout_marginTop="491dp"
+    android:layout_gravity="top|center_horizontal"
+    android:background="@drawable/image_rectangle"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_less_than"
+    android:layout_width="wrap_content"
+    android:layout_height="58dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="13dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="&lt;"
+    android:textColor="#FF000000"
+    android:textSize="36dp" />
+  
+  <TextView
+    android:id="@+id/text_transaction_id"
+    android:layout_width="wrap_content"
+    android:layout_height="29dp"
+    android:layout_marginLeft="46dp"
+    android:layout_marginTop="518dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Transaction ID"
+    android:textColor="#FF000000"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_date"
+    android:layout_width="wrap_content"
+    android:layout_height="29dp"
+    android:layout_marginLeft="46dp"
+    android:layout_marginTop="557dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Date"
+    android:textColor="#FF000000"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_type_transaction"
+    android:layout_width="wrap_content"
+    android:layout_height="29dp"
+    android:layout_marginLeft="46dp"
+    android:layout_marginTop="596dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Type of Transaction"
+    android:textColor="#FF000000"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_total"
+    android:layout_width="wrap_content"
+    android:layout_height="29dp"
+    android:layout_marginLeft="46dp"
+    android:layout_marginTop="635dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Total"
+    android:textColor="#FF000000"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_status"
+    android:layout_width="wrap_content"
+    android:layout_height="29dp"
+    android:layout_marginLeft="46dp"
+    android:layout_marginTop="674dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Status"
+    android:textColor="#FF000000"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_numbers"
+    android:layout_width="wrap_content"
+    android:layout_height="29dp"
+    android:layout_marginLeft="278dp"
+    android:layout_marginTop="519dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="123 456 789"
+    android:textColor="#FF111111"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_dec_date"
+    android:layout_width="wrap_content"
+    android:layout_height="29dp"
+    android:layout_marginLeft="288dp"
+    android:layout_marginTop="558dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="2 Dec 2024"
+    android:textColor="#FF111111"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_credit_card"
+    android:layout_width="wrap_content"
+    android:layout_height="29dp"
+    android:layout_marginLeft="285dp"
+    android:layout_marginTop="597dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Credit Card"
+    android:textColor="#FF000000"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_dollar_amount"
+    android:layout_width="wrap_content"
+    android:layout_height="29dp"
+    android:layout_marginLeft="344dp"
+    android:layout_marginTop="634dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="$30"
+    android:textColor="#FF000000"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_failed"
+    android:layout_width="wrap_content"
+    android:layout_height="29dp"
+    android:layout_marginLeft="316dp"
+    android:layout_marginTop="675dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Failed"
+    android:textColor="#FF000000"
+    android:textSize="18dp" />
+  
+  <ImageView
+    android:id="@+id/image_generic"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_marginTop="107dp"
+    android:layout_gravity="top|center_horizontal"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_generic" />
+  
+  <ImageView
+    android:id="@+id/image_x"
+    android:layout_width="12dp"
+    android:layout_height="12dp"
+    android:layout_marginLeft="294dp"
+    android:layout_marginTop="679dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_x" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle1"
+    android:layout_width="108dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="273dp"
+    android:layout_marginTop="741dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/image_rectangle1"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_try_again"
+    android:layout_width="359dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="124.5dp"
+    android:layout_marginTop="741dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Try Again"
+    android:textColor="#FFFFFFFF"
+    android:textSize="20dp" />
+</FrameLayout>

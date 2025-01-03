@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nested_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<FrameLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="917dp"
+    android:background="@drawable/drawable_shape">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="top|center_horizontal"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginRight="0.5dp"
+        android:layout_marginTop="-0.5dp"
+        android:layout_marginBottom="175.5dp"
+        android:layout_gravity="center"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Welcome Back!"
+        android:textColor="#FF000000"
+        android:textSize="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="347dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Sign-in"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="370.5dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="0.25dp"
+        android:layout_marginTop="396dp"
+        android:layout_gravity="top|center_horizontal"
+        android:scaleType="centerInside"
+        android:src="@drawable/img" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="409dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="Username/email"
+        android:textColor="#FF000000"
+        android:textSize="12dp"
+        android:focusable="true"
+        android:background="@android:color/transparent"
+        android:cursorVisible="true"
+        android:inputType="textEmailAddress" />
+
+    <ImageView
+        android:layout_width="370.5dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="0.25dp"
+        android:layout_marginTop="463dp"
+        android:layout_gravity="top|center_horizontal"
+        android:scaleType="centerInside"
+        android:src="@drawable/img" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="476dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="Password"
+        android:textColor="#FF000000"
+        android:textSize="12dp"
+        android:background="@android:color/transparent"
+        android:focusable="true"
+        android:cursorVisible="true"
+        android:inputType="textPassword" />
+
+
+    <ImageView
+        android:layout_width="13dp"
+        android:layout_height="12dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="530dp"
+        android:background="@drawable/drawable_shape_1"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="110.5dp"
+        android:layout_marginRight="113.5dp"
+        android:layout_marginBottom="-1dp"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Remember me"
+        android:textColor="#FF000000"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/text_no_account"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginRight="0.5dp"
+        android:layout_marginTop="394.5dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_gravity="center"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Don’t have account? Sign-up!"
+        android:textColor="#FF000000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/txtForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginLeft="129dp"
+        android:layout_marginTop="189.5dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_gravity="center"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Forget password?"
+        android:textColor="#FF000000"
+        android:textSize="14dp" />
+
+    <ImageView
+        android:layout_width="359dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="578dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/drawable_shape_2"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/txtSignIn"
+        android:layout_width="359dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5.5dp"
+        android:layout_marginTop="591dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Sign-in"
+        android:textColor="#FFFFFFFF"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="359dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5.5dp"
+        android:layout_marginTop="591dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Sign-in"
+        android:textColor="#FFFFFFFF"
+        android:textSize="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="690dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="or"
+        android:textColor="#FF000000"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="153dp"
+        android:layout_height="0.25dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="25.5dp"
+        android:layout_marginTop="700.75dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_shape_4" />
+
+    <ImageView
+        android:layout_width="153dp"
+        android:layout_height="0.25dp"
+        android:layout_gravity="top|right"
+        android:layout_marginTop="700dp"
+        android:layout_marginRight="21dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_shape_4" />
+
+    <FrameLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="720dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/drawable_shape_3">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/gg" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="217dp"
+        android:layout_marginTop="720dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/drawable_shape_4">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/fb" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/img_eye"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="355dp"
+        android:layout_marginTop="473dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_eye" />
+</FrameLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container_payment_rent_info"
+  android:layout_width="match_parent"
+  android:layout_height="917dp"
+  android:background="@drawable/container_payment_rent_info">
+  
+  <TextView
+    android:id="@+id/text_less_than"
+    android:layout_width="wrap_content"
+    android:layout_height="58dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="19dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="&lt;"
+    android:textColor="#FF000000"
+    android:textSize="36dp" />
+  
+  <TextView
+    android:id="@+id/text_review_booking"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="23dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Review Booking"
+    android:textColor="#FF000000"
+    android:textSize="24dp" />
+  
+  <TextView
+    android:id="@+id/text_date"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="338dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Date"
+    android:textColor="#FF000000"
+    android:textSize="20dp" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle"
+    android:layout_width="370.5dp"
+    android:layout_height="42dp"
+    android:layout_marginRight="4.75dp"
+    android:layout_marginTop="370dp"
+    android:layout_gravity="top|center_horizontal"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_rectangle" />
+  
+  <TextView
+    android:id="@+id/text_date_range"
+    android:layout_width="wrap_content"
+    android:layout_height="21dp"
+    android:layout_marginLeft="41dp"
+    android:layout_marginTop="381dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="4 Dec - 8 Dec 2024"
+    android:textColor="#FF000000"
+    android:textSize="16dp" />
+  
+  <TextView
+    android:id="@+id/text_guests"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="426dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Guests"
+    android:textColor="#FF000000"
+    android:textSize="20dp" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle1"
+    android:layout_width="370.5dp"
+    android:layout_height="42dp"
+    android:layout_marginRight="4.75dp"
+    android:layout_marginTop="458dp"
+    android:layout_gravity="top|center_horizontal"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_rectangle1" />
+  
+  <TextView
+    android:id="@+id/text_total_cost"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_marginLeft="21dp"
+    android:layout_marginTop="683dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Total Cost"
+    android:textColor="#FF000000"
+    android:textSize="20dp" />
+  
+  <TextView
+    android:id="@+id/text_payment_method"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_marginLeft="21dp"
+    android:layout_marginTop="768dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Payment Method"
+    android:textColor="#FF000000"
+    android:textSize="20dp" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle2"
+    android:layout_width="370.5dp"
+    android:layout_height="42dp"
+    android:layout_marginRight="4.75dp"
+    android:layout_marginTop="715dp"
+    android:layout_gravity="top|center_horizontal"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_rectangle2" />
+  
+  <TextView
+    android:id="@+id/text_cost_per_day"
+    android:layout_width="wrap_content"
+    android:layout_height="21dp"
+    android:layout_marginLeft="37dp"
+    android:layout_marginTop="725dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="$24 (5 days)"
+    android:textColor="#FF000000"
+    android:textSize="16dp" />
+  
+  <TextView
+    android:id="@+id/text_voucher"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="514dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Voucher"
+    android:textColor="#FF000000"
+    android:textSize="20dp" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle3"
+    android:layout_width="370.5dp"
+    android:layout_height="42dp"
+    android:layout_marginRight="4.75dp"
+    android:layout_marginTop="546dp"
+    android:layout_gravity="top|center_horizontal"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_rectangle3" />
+  
+  <TextView
+    android:id="@+id/text_apply_voucher"
+    android:layout_width="wrap_content"
+    android:layout_height="21dp"
+    android:layout_marginLeft="37dp"
+    android:layout_marginTop="556dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Apply Voucher"
+    android:textColor="#FF000000"
+    android:textSize="16dp" />
+  
+  <TextView
+    android:id="@+id/text_next"
+    android:layout_width="359dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="140.5dp"
+    android:layout_marginTop="774dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Next"
+    android:textColor="#FFFFFFFF"
+    android:textSize="20dp" />
+  
+  <TextView
+    android:id="@+id/text"
+    android:layout_width="wrap_content"
+    android:layout_height="21dp"
+    android:layout_marginLeft="37dp"
+    android:layout_marginTop="468dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="2"
+    android:textColor="#FF000000"
+    android:textSize="16dp" />
+  
+  <FrameLayout
+    android:id="@+id/container_group"
+    android:layout_width="320dp"
+    android:layout_height="200dp"
+    android:layout_marginTop="87dp"
+    android:layout_gravity="top|center_horizontal">
+    
+    <FrameLayout
+      android:id="@+id/container_group1"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      
+      <FrameLayout
+        android:id="@+id/container_group2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/container_group2">
+        
+        <ImageView
+          android:id="@+id/image_rectangle4"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@drawable/image_rectangle4"
+          android:scaleType="centerCrop" />
+        
+        <TextView
+          android:id="@+id/text_free_wifi"
+          android:layout_width="wrap_content"
+          android:layout_height="18dp"
+          android:layout_marginLeft="35dp"
+          android:layout_marginTop="171.5dp"
+          android:layout_marginBottom="10.5dp"
+          android:layout_gravity="left"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Free wifi"
+          android:textColor="#FF000000"
+          android:textSize="14dp" />
+        
+        <TextView
+          android:id="@+id/text_parking"
+          android:layout_width="wrap_content"
+          android:layout_height="18dp"
+          android:layout_marginLeft="120dp"
+          android:layout_marginTop="171.5dp"
+          android:layout_marginBottom="10.5dp"
+          android:layout_gravity="left"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Parking"
+          android:textColor="#FF000000"
+          android:textSize="14dp" />
+        
+        <ImageView
+          android:id="@+id/image"
+          android:layout_width="match_parent"
+          android:layout_height="129dp"
+          android:layout_gravity="top"
+          android:scaleType="centerCrop"
+          android:src="@drawable/image" />
+      </FrameLayout>
+      
+      <TextView
+        android:id="@+id/text_location"
+        android:layout_width="246dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="131dp"
+        android:layout_marginBottom="32dp"
+        android:layout_gravity="left"
+        android:gravity="left|top"
+        android:includeFontPadding="false"
+        android:lineHeight="19.36dp"
+        android:text="  Green Meadow Central\n  20 Nguyen Viet Xuan, Ward 4, Dalat\n"
+        android:textColor="#FF000000"
+        android:textSize="16dp" />
+      
+      <ImageView
+        android:id="@+id/image_wifi"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="173dp"
+        android:layout_marginBottom="13dp"
+        android:layout_gravity="left"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_wifi" />
+      
+      <ImageView
+        android:id="@+id/image_parking_sign"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginBottom="11dp"
+        android:layout_gravity="left"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_parking_sign" />
+    </FrameLayout>
+    
+    <ImageView
+      android:id="@+id/image_star"
+      android:layout_width="14dp"
+      android:layout_height="14dp"
+      android:layout_marginLeft="274dp"
+      android:layout_marginRight="32dp"
+      android:layout_marginTop="132dp"
+      android:layout_marginBottom="54dp"
+      android:scaleType="centerInside"
+      android:src="@drawable/image_star" />
+    
+    <TextView
+      android:id="@+id/text_rating"
+      android:layout_width="match_parent"
+      android:layout_height="18dp"
+      android:layout_marginLeft="289dp"
+      android:layout_marginRight="10dp"
+      android:layout_marginTop="131.5dp"
+      android:layout_marginBottom="50.5dp"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="4.7"
+      android:textColor="#FF000000"
+      android:textSize="14dp" />
+  </FrameLayout>
+  
+  <TextView
+    android:id="@+id/text_cost_per_night"
+    android:layout_width="wrap_content"
+    android:layout_height="18dp"
+    android:layout_marginLeft="292dp"
+    android:layout_marginTop="261.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="$6 / night"
+    android:textColor="#FF000000"
+    android:textSize="14dp" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle5"
+    android:layout_width="370.5dp"
+    android:layout_height="42dp"
+    android:layout_marginRight="3.75dp"
+    android:layout_marginTop="800dp"
+    android:layout_gravity="top|center_horizontal"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_rectangle5" />
+  
+  <TextView
+    android:id="@+id/text_visa_number"
+    android:layout_width="wrap_content"
+    android:layout_height="21dp"
+    android:layout_marginLeft="95dp"
+    android:layout_marginTop="810dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Visa ********98"
+    android:textColor="#FF000000"
+    android:textSize="16dp" />
+  
+  <ImageView
+    android:id="@+id/container_line"
+    android:layout_width="0dp"
+    android:layout_height="42dp"
+    android:layout_marginLeft="76dp"
+    android:layout_marginTop="800dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_line" />
+  
+  <ImageView
+    android:id="@+id/image1"
+    android:layout_width="34dp"
+    android:layout_height="20dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="816dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/image1" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle6"
+    android:layout_width="80dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="307dp"
+    android:layout_marginTop="869dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/image_rectangle6"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_confirm"
+    android:layout_width="359dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="140.5dp"
+    android:layout_marginTop="869dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Confirm"
+    android:textColor="#FFFFFFFF"
+    android:textSize="20dp" />
+  
+  <ImageView
+    android:id="@+id/image_money_change"
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:layout_marginLeft="347dp"
+    android:layout_marginTop="806dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_money_change" />
+  
+  <TextView
+    android:id="@+id/text_membership_discount"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_marginLeft="19dp"
+    android:layout_marginTop="599dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Membership Discount"
+    android:textColor="#FF000000"
+    android:textSize="20dp" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle7"
+    android:layout_width="370.5dp"
+    android:layout_height="42dp"
+    android:layout_marginRight="5.75dp"
+    android:layout_marginTop="631dp"
+    android:layout_gravity="top|center_horizontal"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_rectangle7" />
+  
+  <TextView
+    android:id="@+id/text_gold_discount"
+    android:layout_width="wrap_content"
+    android:layout_height="21dp"
+    android:layout_marginLeft="36dp"
+    android:layout_marginTop="641dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Gold - 20% Discount"
+    android:textColor="#FF000000"
+    android:textSize="16dp" />
+  
+  <ImageView
+    android:id="@+id/image_discount_coupon"
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:layout_marginLeft="348dp"
+    android:layout_marginTop="555dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_discount_coupon" />
+</FrameLayout>

@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container_membership_rank"
+  android:layout_width="match_parent"
+  android:layout_height="917dp"
+  android:background="@drawable/container_membership_rank">
+  
+  <TextView
+    android:id="@+id/text_membership"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_marginLeft="0.5dp"
+    android:layout_marginTop="31dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Membership"
+    android:textColor="#FF000000"
+    android:textSize="24dp" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle"
+    android:layout_width="340dp"
+    android:layout_height="190dp"
+    android:layout_marginLeft="1dp"
+    android:layout_marginBottom="271.5dp"
+    android:layout_gravity="center"
+    android:background="@drawable/image_rectangle"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_membership_count"
+    android:layout_width="wrap_content"
+    android:layout_height="19dp"
+    android:layout_marginLeft="307dp"
+    android:layout_marginTop="243dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="1234/2000 "
+    android:textColor="#FF000000"
+    android:textSize="12dp" />
+  
+  <TextView
+    android:id="@+id/text_upgrade_info"
+    android:layout_width="wrap_content"
+    android:layout_height="19dp"
+    android:layout_marginLeft="62dp"
+    android:layout_marginTop="264dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Need  766 credits to upgrade platinum"
+    android:textColor="#FF000000"
+    android:textSize="12dp" />
+  
+  <TextView
+    android:id="@+id/text_membership1"
+    android:layout_width="wrap_content"
+    android:layout_height="29dp"
+    android:layout_marginLeft="62dp"
+    android:layout_marginTop="111dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Membership"
+    android:textColor="#FF000000"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_discount_percentage"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:layout_marginLeft="101dp"
+    android:layout_marginTop="395dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Discount 30%"
+    android:textColor="#FF000000"
+    android:textSize="25dp" />
+  
+  <TextView
+    android:id="@+id/text_credits_multiplier"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:layout_marginLeft="97dp"
+    android:layout_marginTop="550dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="x1.5credits"
+    android:textColor="#FF000000"
+    android:textSize="25dp" />
+  
+  <TextView
+    android:id="@+id/text_total_credits"
+    android:layout_width="wrap_content"
+    android:layout_height="29dp"
+    android:layout_marginLeft="270dp"
+    android:layout_marginTop="112dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="2056 credits"
+    android:textColor="#FF000000"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_gold"
+    android:layout_width="wrap_content"
+    android:layout_height="37dp"
+    android:layout_marginLeft="62dp"
+    android:layout_marginTop="139.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Gold"
+    android:textColor="#FF000000"
+    android:textSize="30dp" />
+  
+  <FrameLayout
+    android:id="@+id/container_progress_indicator"
+    android:layout_width="325dp"
+    android:layout_height="12dp"
+    android:layout_marginLeft="43dp"
+    android:layout_marginTop="253dp"
+    android:layout_gravity="top|left">
+    
+    <LinearLayout
+      android:id="@+id/container_track_and_stop"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="left|center_vertical"
+      android:orientation="horizontal"
+      android:paddingLeft="2dp">
+      
+      <FrameLayout
+        android:id="@+id/image_track"
+        android:layout_width="0dp"
+        android:layout_height="12dp"
+        android:layout_weight="1">
+        
+        <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="4dp"
+          android:layout_gravity="center_vertical"
+          android:background="@drawable/drawable_shape"
+          android:scaleType="centerCrop" />
+      </FrameLayout>
+    </LinearLayout>
+    
+    <ImageView
+      android:layout_width="4dp"
+      android:layout_height="4dp"
+      android:layout_gravity="center"
+      android:background="@drawable/drawable_shape_1"
+      android:scaleType="centerInside" />
+  </FrameLayout>
+  
+  <ImageView
+    android:id="@+id/image_crown"
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:layout_marginLeft="58dp"
+    android:layout_marginTop="315dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_crown" />
+  
+  <TextView
+    android:id="@+id/text_exchange_voucher"
+    android:layout_width="wrap_content"
+    android:layout_height="29dp"
+    android:layout_marginLeft="237dp"
+    android:layout_marginTop="346dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Exchange Voucher"
+    android:textColor="#FFFFFFFF"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_less_than"
+    android:layout_width="wrap_content"
+    android:layout_height="58dp"
+    android:layout_marginLeft="22dp"
+    android:layout_marginTop="27dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="&lt;"
+    android:textColor="#FF000000"
+    android:textSize="36dp" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle1"
+    android:layout_width="390dp"
+    android:layout_height="30dp"
+    android:layout_marginRight="1dp"
+    android:layout_marginTop="298dp"
+    android:layout_gravity="top|center_horizontal"
+    android:background="@drawable/image_rectangle1"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:id="@+id/container_line"
+    android:layout_width="1.13dp"
+    android:layout_height="27dp"
+    android:layout_marginLeft="131dp"
+    android:layout_marginTop="299dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_line" />
+  
+  <ImageView
+    android:id="@+id/container_line1"
+    android:layout_width="1.13dp"
+    android:layout_height="27dp"
+    android:layout_marginLeft="263dp"
+    android:layout_marginTop="298dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_line1" />
+  
+  <TextView
+    android:id="@+id/text_silver"
+    android:layout_width="wrap_content"
+    android:layout_height="26dp"
+    android:layout_marginLeft="38dp"
+    android:layout_marginTop="298dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Silver"
+    android:textColor="#FF000000"
+    android:textSize="20dp" />
+  
+  <TextView
+    android:id="@+id/text_gold1"
+    android:layout_width="wrap_content"
+    android:layout_height="26dp"
+    android:layout_marginLeft="173dp"
+    android:layout_marginTop="298dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Gold"
+    android:textColor="#FF000000"
+    android:textSize="20dp" />
+  
+  <TextView
+    android:id="@+id/text_platinum"
+    android:layout_width="wrap_content"
+    android:layout_height="26dp"
+    android:layout_marginLeft="280dp"
+    android:layout_marginTop="299dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Platinum"
+    android:textColor="#FF097C62"
+    android:textSize="20dp" />
+  
+  <ImageView
+    android:id="@+id/container_line2"
+    android:layout_width="376dp"
+    android:layout_height="5dp"
+    android:layout_marginRight="1dp"
+    android:layout_marginTop="463dp"
+    android:layout_gravity="top|center_horizontal"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_line2" />
+  
+  <ImageView
+    android:id="@+id/container_line3"
+    android:layout_width="376dp"
+    android:layout_height="5dp"
+    android:layout_marginRight="1dp"
+    android:layout_marginTop="643dp"
+    android:layout_gravity="top|center_horizontal"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_line3" />
+  
+  <ImageView
+    android:id="@+id/image_crown1"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="33dp"
+    android:layout_marginTop="536dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_crown1" />
+  
+  <ImageView
+    android:id="@+id/image_discount_star"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_marginLeft="31dp"
+    android:layout_marginTop="381dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_discount_star" />
+</FrameLayout>

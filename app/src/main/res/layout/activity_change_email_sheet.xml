@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container_change_email_sheet"
+  android:layout_width="match_parent"
+  android:layout_height="917dp"
+  android:background="@drawable/container_change_email_sheet">
+  
+  <TextView
+    android:id="@+id/text_back_arrow"
+    android:layout_width="wrap_content"
+    android:layout_height="58dp"
+    android:layout_marginLeft="17dp"
+    android:layout_marginTop="14dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="&lt;"
+    android:textColor="#FF000000"
+    android:textSize="36dp" />
+  
+  <TextView
+    android:id="@+id/text_account_management"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_marginTop="18dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Account Management"
+    android:textColor="#FF000000"
+    android:textSize="24dp" />
+  
+  <TextView
+    android:id="@+id/text_account"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_marginLeft="18dp"
+    android:layout_marginTop="72dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Account"
+    android:textColor="#FF000000"
+    android:textSize="20dp" />
+  
+  <TextView
+    android:id="@+id/text_delete_account"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_marginLeft="19dp"
+    android:layout_marginTop="298dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Delete Account"
+    android:textColor="#FFFF0000"
+    android:textSize="20dp" />
+  
+  <TextView
+    android:id="@+id/text_username"
+    android:layout_width="wrap_content"
+    android:layout_height="29dp"
+    android:layout_marginLeft="18dp"
+    android:layout_marginTop="123dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Username"
+    android:textColor="#FF000000"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_delete_account_warning"
+    android:layout_width="wrap_content"
+    android:layout_height="80.89dp"
+    android:layout_marginLeft="17dp"
+    android:layout_marginTop="326.56dp"
+    android:layout_marginBottom="-11.44dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:lineHeight="28.94dp"
+    android:maxLines="3"
+    android:text="Once you delete your account, \nthere is no  going back.Please be certain"
+    android:textColor="#FF000000"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_email"
+    android:layout_width="wrap_content"
+    android:layout_height="29dp"
+    android:layout_marginLeft="18dp"
+    android:layout_marginTop="171dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Email"
+    android:textColor="#FF000000"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_password"
+    android:layout_width="wrap_content"
+    android:layout_height="29dp"
+    android:layout_marginLeft="19dp"
+    android:layout_marginTop="219dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Password"
+    android:textColor="#FF000000"
+    android:textSize="18dp" />
+  
+  <ImageView
+    android:id="@+id/container_line"
+    android:layout_width="376dp"
+    android:layout_height="5dp"
+    android:layout_marginRight="1dp"
+    android:layout_marginTop="274dp"
+    android:layout_gravity="top|center_horizontal"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_line" />
+  
+  <ImageView
+    android:id="@+id/image_ellipse"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="28dp"
+    android:layout_marginTop="415dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/image_ellipse"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_delete_account_button"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_marginLeft="76dp"
+    android:layout_marginTop="418dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Delete your account"
+    android:textColor="#FFFF0000"
+    android:textSize="20dp" />
+  
+  <ImageView
+    android:id="@+id/image_trash"
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:layout_marginLeft="33dp"
+    android:layout_marginTop="420dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_trash" />
+  
+  <TextView
+    android:id="@+id/text_username_value"
+    android:layout_width="wrap_content"
+    android:layout_height="29dp"
+    android:layout_marginLeft="318dp"
+    android:layout_marginTop="124dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="spjk_ryan"
+    android:textColor="#FF111111"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_password_value"
+    android:layout_width="wrap_content"
+    android:layout_height="29dp"
+    android:layout_marginLeft="302dp"
+    android:layout_marginTop="220dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="************"
+    android:textColor="#FF111111"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_email_value"
+    android:layout_width="wrap_content"
+    android:layout_height="29dp"
+    android:layout_marginLeft="235dp"
+    android:layout_marginTop="172dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="spjk1910@gmail.com"
+    android:textColor="#FF111111"
+    android:textSize="18dp" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle"
+    android:layout_width="412dp"
+    android:layout_height="643dp"
+    android:layout_marginTop="274dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/image_rectangle"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle1"
+    android:layout_width="370.5dp"
+    android:layout_height="42dp"
+    android:layout_marginLeft="2.25dp"
+    android:layout_marginTop="476dp"
+    android:layout_gravity="top|center_horizontal"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_rectangle1" />
+  
+  <TextView
+    android:id="@+id/text_current_password"
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"
+    android:layout_marginLeft="39dp"
+    android:layout_marginTop="490dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Current password"
+    android:textColor="#FF000000"
+    android:textSize="15dp" />
+  
+  <ImageView
+    android:id="@+id/image_eye"
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:layout_marginLeft="357dp"
+    android:layout_marginTop="485dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_eye" />
+  
+  <TextView
+    android:id="@+id/text_forget_password"
+    android:layout_width="wrap_content"
+    android:layout_height="18dp"
+    android:layout_marginRight="116dp"
+    android:layout_marginTop="81.5dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="center"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Forget password?"
+    android:textColor="#FF000000"
+    android:textSize="14dp" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle2"
+    android:layout_width="370.5dp"
+    android:layout_height="42dp"
+    android:layout_marginLeft="2.25dp"
+    android:layout_marginTop="574dp"
+    android:layout_gravity="top|center_horizontal"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_rectangle2" />
+  
+  <TextView
+    android:id="@+id/text_new_email"
+    android:layout_width="wrap_content"
+    android:layout_height="16dp"
+    android:layout_marginLeft="39dp"
+    android:layout_marginTop="586dp"
+    android:layout_marginBottom="-1dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="New email"
+    android:textColor="#FF000000"
+    android:textSize="12dp" />
+  
+  <ImageView
+    android:id="@+id/image_eye1"
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:layout_marginLeft="357dp"
+    android:layout_marginTop="584dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_eye1" />
+  
+  <TextView
+    android:id="@+id/text_changing_email"
+    android:layout_width="wrap_content"
+    android:layout_height="51dp"
+    android:layout_marginLeft="0.5dp"
+    android:layout_marginTop="314dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Changing Email"
+    android:textColor="#FF000000"
+    android:textSize="32dp" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle3"
+    android:layout_width="80dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="308dp"
+    android:layout_marginTop="641dp"
+    android:layout_gravity="top|left"
+    android:background="@drawable/image_rectangle3"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_submit"
+    android:layout_width="359dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="141.5dp"
+    android:layout_marginTop="641dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Submit"
+    android:textColor="#FFFFFFFF"
+    android:textSize="20dp" />
+</FrameLayout>

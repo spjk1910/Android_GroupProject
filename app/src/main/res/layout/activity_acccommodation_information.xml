@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nested_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<FrameLayout
+    android:id="@+id/container_accommodation_information"
+    android:layout_width="match_parent"
+    android:layout_height="1109dp"
+    android:background="@drawable/container_accommodation_information">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_accommodation_images"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="top|left"
+        android:orientation="horizontal"
+        android:overScrollMode="never"
+        android:padding="8dp" />
+
+
+
+
+    <TextView
+        android:id="@+id/text_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="14dp"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="&lt;"
+        android:textColor="#FF000000"
+        android:textSize="36dp" />
+
+    <TextView
+        android:id="@+id/text_hotel_name"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="410dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Azure Haven"
+        android:textColor="#FF000000"
+        android:textSize="36dp" />
+
+    <TextView
+        android:id="@+id/text_location"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="479dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Dalat"
+        android:textColor="#FF000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/text_reviews"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="480dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="5 (5 reviews)"
+        android:textColor="#FF000000"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/image_star"
+        android:layout_width="24dp"
+        android:layout_height="37dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="479dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_star" />
+
+    <ImageView
+        android:id="@+id/image_rectangle2"
+        android:layout_width="389dp"
+        android:layout_height="457dp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginLeft="0.5dp"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/rounded_background"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/text_offer"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="532dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="What we offer"
+        android:textColor="#FF000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/text_description"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="670dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Description"
+        android:textColor="#FF000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/text_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="796dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Contact Us"
+        android:textColor="#FF000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/text_review"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="910dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Review"
+        android:textColor="#FF000000"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/image_rectangle3"
+        android:layout_width="158dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="579dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/image_rectangle"
+        android:scaleType="centerInside" />
+
+    <ImageView
+        android:id="@+id/image_rectangle4"
+        android:layout_width="113dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="271dp"
+        android:layout_marginTop="579dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/image_rectangle"
+        android:scaleType="centerInside" />
+
+    <ImageView
+        android:id="@+id/image_pool_ladder"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="287dp"
+        android:layout_marginTop="582dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_pool_ladder" />
+
+    <ImageView
+        android:id="@+id/image_rectangle5"
+        android:layout_width="158dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="624dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/image_rectangle"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/text_free_wifi"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="578dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Free Wifi"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/text_parking"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="623dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Parking"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/text_pool"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginLeft="314dp"
+        android:layout_marginTop="578dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Pool"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/text_hotel_description"
+        android:layout_width="353dp"
+        android:layout_height="79dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="715dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|top"
+        android:includeFontPadding="false"
+        android:lineHeight="18.46dp"
+        android:text="Our hotel offers a serene retreat for travelers seeking both relaxation and adventure. Whether you’re here for a romantic getaway, a family... More"
+        android:textColor="#FF000000"
+        android:textSize="14dp" />
+
+    <ImageView
+        android:id="@+id/image_rectangle6"
+        android:layout_width="match_parent"
+        android:layout_height="166dp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="969dp"
+        android:background="#D9D9D9"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/text_total_price"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="1004dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="$30 Total"
+        android:textColor="#FF45B299"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/text_price_per_night"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="1038dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="5 days - $6/night"
+        android:textColor="#FF000000"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="480dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_location" />
+
+    <ImageView
+        android:id="@+id/image_wifi"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="580dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_wifi" />
+
+    <ImageView
+        android:id="@+id/image_parking_sign"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="629dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/image_parking_sign" />
+
+    <ImageView
+        android:id="@+id/image_rectangle7"
+        android:layout_width="151dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="121.5dp"
+        android:layout_marginTop="1059dp"
+        android:layout_gravity="top|center_horizontal"
+        android:background="@drawable/rounded_background_5px"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/text_book_now"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginLeft="124.5dp"
+        android:layout_marginTop="1067dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Book Now"
+        android:textColor="#FFFFFFFF"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/text_via_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="834dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="via chat"
+        android:textColor="#FF000000"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/ic_chat"
+        android:drawablePadding="8dp" />
+
+    <TextView
+        android:id="@+id/text_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="873dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="012456789"
+        android:textColor="#FF000000"
+        android:drawableLeft="@drawable/ic_call"
+
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/text_review_count"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginLeft="111dp"
+        android:layout_marginTop="905dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="(5 reviews)"
+        android:textColor="#FF000000"
+        android:textSize="20dp" />
+</FrameLayout>
+
+</androidx.core.widget.NestedScrollView>

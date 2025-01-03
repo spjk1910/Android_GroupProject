@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/container_membership"
+  android:layout_width="match_parent"
+  android:layout_height="917dp"
+  android:background="@drawable/container_membership">
+  
+  <TextView
+    android:id="@+id/text_membership"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_marginLeft="0.5dp"
+    android:layout_marginTop="31dp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Membership"
+    android:textColor="#FF000000"
+    android:textSize="24dp" />
+  
+  <ImageView
+    android:id="@+id/image_list"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="21dp"
+    android:layout_marginTop="33dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_list" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle"
+    android:layout_width="340dp"
+    android:layout_height="190dp"
+    android:layout_marginLeft="1dp"
+    android:layout_marginBottom="271.5dp"
+    android:layout_gravity="center"
+    android:background="@drawable/image_rectangle"
+    android:scaleType="centerInside" />
+  
+  <TextView
+    android:id="@+id/text_membership_count"
+    android:layout_width="wrap_content"
+    android:layout_height="19dp"
+    android:layout_marginLeft="307dp"
+    android:layout_marginTop="243dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="1234/2000 "
+    android:textColor="#FF000000"
+    android:textSize="12dp" />
+  
+  <TextView
+    android:id="@+id/text_upgrade_info"
+    android:layout_width="wrap_content"
+    android:layout_height="19dp"
+    android:layout_marginLeft="62dp"
+    android:layout_marginTop="264dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Need  766 credits to upgrade platinum"
+    android:textColor="#FF000000"
+    android:textSize="12dp" />
+  
+  <TextView
+    android:id="@+id/text_membership2"
+    android:layout_width="wrap_content"
+    android:layout_height="29dp"
+    android:layout_marginLeft="62dp"
+    android:layout_marginTop="111dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Membership"
+    android:textColor="#FF000000"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_credits"
+    android:layout_width="wrap_content"
+    android:layout_height="29dp"
+    android:layout_marginLeft="61dp"
+    android:layout_marginTop="182dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="2056 credits"
+    android:textColor="#FF000000"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_gold"
+    android:layout_width="wrap_content"
+    android:layout_height="37dp"
+    android:layout_marginLeft="62dp"
+    android:layout_marginTop="139.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Gold"
+    android:textColor="#FF000000"
+    android:textSize="30dp" />
+  
+  <FrameLayout
+    android:id="@+id/container_progress_indicator"
+    android:layout_width="325dp"
+    android:layout_height="12dp"
+    android:layout_marginLeft="43dp"
+    android:layout_marginTop="253dp"
+    android:layout_gravity="top|left">
+    
+    <LinearLayout
+      android:id="@+id/container_track_and_stop"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="left|center_vertical"
+      android:orientation="horizontal"
+      android:paddingLeft="2dp">
+      
+      <FrameLayout
+        android:id="@+id/image_track"
+        android:layout_width="0dp"
+        android:layout_height="12dp"
+        android:layout_weight="1">
+        
+        <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="4dp"
+          android:layout_gravity="center_vertical"
+          android:background="@drawable/drawable_shape"
+          android:scaleType="centerCrop" />
+      </FrameLayout>
+    </LinearLayout>
+    
+    <ImageView
+      android:layout_width="4dp"
+      android:layout_height="4dp"
+      android:layout_gravity="center"
+      android:background="@drawable/drawable_shape_1"
+      android:scaleType="centerInside" />
+  </FrameLayout>
+  
+  <ImageView
+    android:id="@+id/image_rectangle2"
+    android:layout_width="77dp"
+    android:layout_height="23dp"
+    android:layout_marginLeft="282dp"
+    android:layout_marginTop="126dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_rectangle2" />
+  
+  <TextView
+    android:id="@+id/text_my_voucher"
+    android:layout_width="wrap_content"
+    android:layout_height="19dp"
+    android:layout_marginLeft="289dp"
+    android:layout_marginTop="130dp"
+    android:layout_gravity="top|left"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="My Voucher"
+    android:textColor="#FF000000"
+    android:textSize="12dp" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle3"
+    android:layout_width="150dp"
+    android:layout_height="70dp"
+    android:layout_marginLeft="43dp"
+    android:layout_marginTop="304dp"
+    android:layout_gravity="top|left"
+    android:alpha="0.800000011920929"
+    android:background="@drawable/image_rectangle3"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle4"
+    android:layout_width="150dp"
+    android:layout_height="70dp"
+    android:layout_marginLeft="43dp"
+    android:layout_marginTop="396dp"
+    android:layout_gravity="top|left"
+    android:alpha="0.800000011920929"
+    android:background="@drawable/image_rectangle4"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:id="@+id/image_rectangle5"
+    android:layout_width="150dp"
+    android:layout_height="70dp"
+    android:layout_marginLeft="227dp"
+    android:layout_marginTop="304dp"
+    android:layout_gravity="top|left"
+    android:alpha="0.800000011920929"
+    android:background="@drawable/image_rectangle5"
+    android:scaleType="centerInside" />
+  
+  <ImageView
+    android:id="@+id/image_crown"
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:layout_marginLeft="58dp"
+    android:layout_marginTop="315dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_crown" />
+  
+  <TextView
+    android:id="@+id/text_membership3"
+    android:layout_width="wrap_content"
+    android:layout_height="29dp"
+    android:layout_marginLeft="57dp"
+    android:layout_marginTop="341dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Membership"
+    android:textColor="#FFFFFFFF"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_exchange_voucher"
+    android:layout_width="wrap_content"
+    android:layout_height="29dp"
+    android:layout_marginLeft="237dp"
+    android:layout_marginTop="346dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Exchange Voucher"
+    android:textColor="#FFFFFFFF"
+    android:textSize="18dp" />
+  
+  <TextView
+    android:id="@+id/text_credit_history"
+    android:layout_width="wrap_content"
+    android:layout_height="29dp"
+    android:layout_marginLeft="57dp"
+    android:layout_marginTop="437dp"
+    android:layout_gravity="top|left"
+    android:gravity="left|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="Credit History"
+    android:textColor="#FFFFFFFF"
+    android:textSize="18dp" />
+  
+  <ImageView
+    android:id="@+id/image_fastforward_clock"
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:layout_marginLeft="58dp"
+    android:layout_marginTop="412dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_fastforward_clock" />
+  
+  <ImageView
+    android:id="@+id/image_discount_coupon"
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:layout_marginLeft="239dp"
+    android:layout_marginTop="316dp"
+    android:layout_gravity="top|left"
+    android:scaleType="centerInside"
+    android:src="@drawable/image_discount_coupon" />
+</FrameLayout>

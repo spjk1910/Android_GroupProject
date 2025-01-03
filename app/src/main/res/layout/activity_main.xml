@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nested_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<FrameLayout
+    android:id="@+id/container_rental"
+    android:layout_width="match_parent"
+    android:layout_height="800dp"
+    android:background="@drawable/container_rental">
+
+
+
+    <ImageView
+        android:id="@+id/image19"
+        android:layout_width="420dp"
+        android:layout_height="350dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/img2" />
+
+    <ImageView
+        android:id="@+id/image_ellipse20"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="330dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/image_ellipse20"
+        android:scaleType="centerInside" />
+
+    <ImageView
+        android:id="@+id/image_ellipse21"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/image_ellipse21"
+        android:scaleType="centerInside" />
+
+    <ImageView
+        android:id="@+id/image_ellipse22"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/image_ellipse22"
+        android:scaleType="centerInside" />
+
+    <ImageView
+        android:id="@+id/image_rectangle23"
+        android:layout_width="214dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="230dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/image_rectangle23"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/text_waterfall24"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="280dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|top"
+        android:includeFontPadding="false"
+        android:lineHeight="15.73dp"
+        android:text="Stunning waterfall, a must-visit \ntourist attraction"
+        android:textColor="#FF000000"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/text_pongour_falls25"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="230.5dp"
+        android:layout_marginBottom="-0.5dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Pongour Falls"
+        android:textColor="#FF000000"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/image_rectangle26"
+        android:layout_width="337dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="0.5dp"
+        android:layout_marginTop="38dp"
+        android:layout_gravity="top|center_horizontal"
+        android:background="@drawable/img1"
+        android:scaleType="centerInside" />
+
+    <ImageView
+        android:id="@+id/image_search27"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="51dp"
+        android:layout_gravity="top|left"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_search" />
+
+    <TextView
+        android:id="@+id/text_search_accommodations28"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="47dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|top"
+        android:includeFontPadding="false"
+        android:lineHeight="15.73dp"
+        android:text="Search accommodations\nDate range - Number of guests"
+        android:textColor="#FFFFFFFF"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/text_most_popular29"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="351dp"
+        android:layout_marginBottom="-0.5dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Most Popular"
+        android:textColor="#FF000000"
+        android:textSize="24dp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_most_popular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="0dp"
+        />
+
+    <TextView
+        android:id="@+id/text_hot_deals30"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="580.5dp"
+        android:layout_marginBottom="-0.5dp"
+        android:layout_gravity="top|left"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Hot Deals 🔥"
+        android:textColor="#FF000000"
+        android:textSize="24dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_hot_deals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="610dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/text_hot_deals30"
+        android:layout_alignParentStart="true" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="790dp"
+
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_navigation_background"
+        app:menu="@menu/bottom_navigation_menu" />
+
+
+
+
+</FrameLayout>
+
+</androidx.core.widget.NestedScrollView>
